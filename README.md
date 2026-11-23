@@ -12,7 +12,7 @@ Dresser + Search。FF14（繁中版）幻化衣櫃搜尋工具：輸入衣服名
 
 🎬 **新功能示範影片**（98 秒，色板、篩選分頁、找相似、風格、標籤）：[播放／下載](https://github.com/LaneBlossom/Dressearch/releases/download/v0.15.1/Dressearch-demo-0.15.mp4)
 
-**外觀主題**（1.1.0 起）：按標題列的調色盤圖示，可以換成**吊牌**（布尺、裁縫筆圈選、蓋章）或**科技**（逐格掃描、鎖定、全息圖示），動畫可以選完整、簡短或關閉。影片：[吊牌](https://github.com/LaneBlossom/Dressearch/releases/download/v1.1.0/dressearch_theme_tag.mp4)、[科技](https://github.com/LaneBlossom/Dressearch/releases/download/v1.1.0/dressearch_theme_tech.mp4)（各 24 秒，衣櫃畫面用截圖合成）。
+**外觀主題**（1.1.0 起）：預設是**吊牌**（布尺、裁縫筆圈選、蓋章），按標題列的調色盤圖示可以換成**科技**（逐格掃描、鎖定、全息圖示）或**經典**（單純的框），動畫可以選完整、簡短或關閉。影片：[吊牌](https://github.com/LaneBlossom/Dressearch/releases/download/v1.1.0/dressearch_theme_tag.mp4)、[科技](https://github.com/LaneBlossom/Dressearch/releases/download/v1.1.0/dressearch_theme_tech.mp4)（各 24 秒，衣櫃畫面用截圖合成）。
 
 ![吊牌和科技主題](docs/themes.png)
 
@@ -82,6 +82,7 @@ Dresser + Search。FF14（繁中版）幻化衣櫃搜尋工具：輸入衣服名
    - 遊戲視窗縮小時會自動暫停，還原後繼續。
    - 面板右上角的狀態燈：綠色「衣櫃已定位」、橘色「衣櫃未開啟」、藍色「定位中」、灰色「已暫停／尚未定位」。
 4. 切到該道具的分類，一頁一頁翻，框線會即時跟著更新：
+   （下面是經典外觀的框；吊牌是紅筆圈，科技是粉紅鎖定圈，不確定的會標「？」）
    - **粉紅框**：找到了，面板上也會用大字寫第幾列第幾格（滑鼠指著那件衣服、說明框蓋住它時，框會留在原地）
    - **橘框**：可能是，但不太確定
    - **虛線框**：外型很像的其他格子（例如換色款）
